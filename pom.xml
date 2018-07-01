@@ -80,7 +80,24 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		
-
+		<!-- Web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<!-- Suporte ao Optional do JDK8 -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+		</dependency>
+		
+		<!-- Utilitario para trabalhar com enums -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.6</version>
+		</dependency>
 		<!--  -->
 		
 	</dependencies>
